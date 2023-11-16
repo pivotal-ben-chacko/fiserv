@@ -8,6 +8,6 @@ spec:
   profile:
     displayName: bluefin-dev
     email: bluefin-dev@fiserv.com
-    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
+    picture: https://github.com/pivotal-ben-chacko/fiserv/blob/main/resources/office-building-fiserv.png 
   parent: it
   children: []
