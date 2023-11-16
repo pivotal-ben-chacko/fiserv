@@ -9,7 +9,7 @@ spec:
     displayName: bluefin-dev
     email: bluefin-dev@fiserv.com
     picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/office-building-fiserv.png 
-  parent: it
+  parent: DevOps
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
