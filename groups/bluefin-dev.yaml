@@ -7,7 +7,7 @@ spec:
   type: sub-department
   profile:
     displayName: bluefin-dev
-    email: backstage@example.com
+    email: bluefin-dev@fiserv.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: it
   children: []
