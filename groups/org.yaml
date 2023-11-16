@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: fiserv-corp
+  description: fiserv corporation
+  links:
+    - url: http://www.backstage.io/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: Fiserv
+    email: info@fiserv.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [it]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-group
+  description: A Backstage example group
+spec:
+  targets:
+    - ./it.yaml
+    - ./bluefin-dev.yaml
