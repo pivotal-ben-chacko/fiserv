@@ -14,4 +14,4 @@ spec:
     displayName: Fiserv
     email: info@fiserv.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [it]
+  children: [DevOps]
