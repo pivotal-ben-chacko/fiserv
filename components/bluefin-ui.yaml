@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bluefin-ui
+  description: bluefin-ui app
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of: bluefin'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://bluefin-ui.io
+      title: 'Blufin UI Information'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: bluefin-dev/fiserv container services
+  system: bluefin
+  dependsOn: [Component:yelb-appserver]
