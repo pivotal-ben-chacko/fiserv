@@ -9,7 +9,6 @@ spec:
     displayName: DevOps
     email: gowridhar.madu@fiserv.com
     picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/devops-fiserv.png
-  # Intentional no profile for testing
   parent: fiserv
   children: [bluefin-dev]
 ---
