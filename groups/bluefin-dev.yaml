@@ -20,7 +20,7 @@ spec:
   profile:
     displayName: Jacob Vaidyan
     email: jacob.vaidyan@fiserv.com
-    picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/knight-fiserv.png 
+    picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/ninja-fiserv.png 
   memberOf: [bluefin-dev]
 ---
 apiVersion: backstage.io/v1alpha1
