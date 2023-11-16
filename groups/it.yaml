@@ -5,6 +5,21 @@ metadata:
   description: The IT department
 spec:
   type: department
+  profile:
+    displayName: DevOps
+    email: gowridhar.madu@fiserv.com
+    picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/devops-fiserv.png
   # Intentional no profile for testing
   parent: fiserv
   children: [bluefin-dev]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: gman
+spec:
+  profile:
+    displayName: Madu Gowridhar
+    email: gowridhar.madu@fiserv.com
+    picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/boss-fiserv.png
+  memberOf: [DevOps]
