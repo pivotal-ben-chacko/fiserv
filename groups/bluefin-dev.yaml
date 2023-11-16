@@ -31,5 +31,5 @@ spec:
   profile:
     displayName: James Thomas
     email: james.higginsthomas@fiserv.com
-    picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/diver-fiserv.png
+    picture: https://raw.githubusercontent.com/pivotal-ben-chacko/fiserv/main/resources/hacker-fiserv.png
   memberOf: [bluefin-dev]
