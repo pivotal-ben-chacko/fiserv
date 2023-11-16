@@ -15,6 +15,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: bluefin-dev/fiserv container services
+  owner: bluefin-dev/fiserv-container-services
   system: bluefin
   dependsOn: [Component:yelb-appserver]

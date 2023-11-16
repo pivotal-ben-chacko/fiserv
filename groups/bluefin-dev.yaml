@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: bluefin-dev/fiserv container services
+  name: bluefin-dev/fiserv-container-services
   description: bluefin-dev 
 spec:
   type: sub-department
