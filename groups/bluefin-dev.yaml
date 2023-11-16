@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: bluefin-dev/fiserv-container-services
+  name: bluefin-dev
   description: bluefin-dev 
 spec:
   type: sub-department
   profile:
-    displayName: Development
+    displayName: bluefin-dev
     email: backstage@example.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: it

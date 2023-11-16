@@ -7,4 +7,4 @@ spec:
   type: department
   # Intentional no profile for testing
   parent: fiserv
-  children: [bluefin-dev/fiserv-container-services]
+  children: [bluefin-dev]

@@ -15,13 +15,3 @@ spec:
     email: info@fiserv.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
   children: [it]
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: example-group
-  description: A Backstage example group
-spec:
-  targets:
-    - ./it.yaml
-    - ./bluefin-dev.yaml
