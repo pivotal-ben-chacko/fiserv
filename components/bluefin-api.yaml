@@ -14,4 +14,4 @@ spec:
   owner: bluefin-dev
   system: bluefin
   providesApis:
-    - bluefin-api-api
+    - bluefin-api-628aec31
