@@ -9,6 +9,8 @@ spec:
   targets:
     - ./components/bluefin-ui.yaml
     - ./components/bluefin-api.yaml
+    - ./components/bluefin-system.yaml
+    - ./components/bluefin-api-api.yaml
     - ./groups/bluefin-dev.yaml
     - ./groups/it.yaml
     - ./groups/org.yaml
