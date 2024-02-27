@@ -10,7 +10,7 @@ spec:
     - ./components/bluefin-ui.yaml
     - ./components/bluefin-api.yaml
     - ./components/bluefin-system.yaml
-    - ./components/API.yaml
+      #- ./components/API.yaml
     - ./groups/bluefin-dev.yaml
     - ./groups/it.yaml
     - ./groups/org.yaml
