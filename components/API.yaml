@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: bluefin-api
+  name: bluefin-api-api
   description: Retrieve artist details
 spec:
   type: openapi
