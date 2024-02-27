@@ -13,3 +13,5 @@ spec:
   lifecycle: experimental
   owner: bluefin-dev
   system: bluefin
+  providesApis:
+    - bluefin-api-api
