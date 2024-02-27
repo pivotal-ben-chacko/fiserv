@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bluefin-api
+  description: Retrieve artist details
+spec:
+  type: openapi
+  lifecycle: production
+  owner: artist-relations-team
+  system: artist-engagement-portal
+  definition: |
+    openapi: 3.0.1
+    paths:
+      /greeting:
+        get:
+          operationId: greeting
+          parameters:
+          - in: query
+            name: name
+            required: false
+            schema:
+              default: World
+              type: string
+          responses:
+            "200":
+              content:
+                '*/*':
+                  schema:
+                    $ref: '#/components/schemas/Greeting'
+              description: OK
+          tags:
+          - greeting-controller
+    servers:
+    - url: https://bluefin-api.default.skynetsystems.io
+
