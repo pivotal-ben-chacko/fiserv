@@ -6,7 +6,7 @@ metadata:
   tags:
     - javascript
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of: bluefin'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of: rest-service'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
