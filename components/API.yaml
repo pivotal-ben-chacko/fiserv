@@ -20,13 +20,6 @@ spec:
             required: false
             schema:
               default: World
-              type: string
-          responses:
-            "200":
-              content:
-                '*/*':
-                  schema:
-                    $ref: '#/components/schemas/Greeting'
               description: OK
           tags:
           - greeting-controller
