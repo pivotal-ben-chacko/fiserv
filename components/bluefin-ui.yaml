@@ -16,5 +16,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: bluefin-dev
-  system: bluefin
+  system: bluefin-system
   dependsOn: [Component:bluefin-api]

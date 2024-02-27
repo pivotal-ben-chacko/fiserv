@@ -12,6 +12,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: bluefin-dev
-  system: bluefin
+  system: bluefin-system
   providesApis:
     - bluefin-api-628aec31
